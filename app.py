@@ -13,7 +13,7 @@ model = pickle.load(open('model_final.pkl','rb'))
 encoder = pickle.load(open('target_encoder.pkl','rb'))
 transformer = pickle.load(open('transformer.pkl','rb'))
 
-st.title("Insurance Premium Prediction")
+st.title("Insurance Premium Prediction by Mohammad Wasiq")
 age = st.text_input('Enter Age', 18)
 age = int(age)
 
